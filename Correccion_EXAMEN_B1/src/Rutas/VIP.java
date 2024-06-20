@@ -52,6 +52,12 @@ public class VIP extends Ruta{
         return (Total+precio);
     }
 
+    // PARTE DE EL COSTO ADICIONAL DE LA CLASE VIP
+    // encargado richard padilla
+    // kein
+
+
+
 
     @Override
     public void mostrar_datos(){
