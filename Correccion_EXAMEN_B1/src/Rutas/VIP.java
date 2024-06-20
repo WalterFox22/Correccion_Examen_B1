@@ -52,6 +52,11 @@ public class VIP extends Ruta{
         return (Total+precio);
     }
 
+    // PARTE DE EL COSTO ADICIONAL DE LA CLASE VIP
+
+
+
+
     @Override
     public void mostrar_datos(){
         System.out.println("Nombre: "+nombre);
