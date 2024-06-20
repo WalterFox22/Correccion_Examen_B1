@@ -41,7 +41,7 @@ public class Normal extends Ruta{
         Espacio_extra = espacio_extra;
     }
 
-    public  double Vip_adicional(){
+    public  double Normal_adicional(){
         double extra= precio*(30/100);
         return (extra+precio);
     }
@@ -49,7 +49,7 @@ public class Normal extends Ruta{
         return (Espacio_extra * 1.50);
     }
     public double total() {
-        double Total = Vip_adicional() + precio_extra();
+        double Total = Normal_adicional() + precio_extra();
         return (Total + precio);
     }
 

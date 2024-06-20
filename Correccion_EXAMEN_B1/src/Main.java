@@ -6,7 +6,7 @@ import Rutas.Pasajero;
 public class Main {
     public static void main(String[] args) {
 
-        // AQUI ESTAN VALORES QUEMAODS CON CLINETES Y RUTAS :3
+        // AQUI ESTAN VALORES QUEMAODS CON CLINETES Y RUTAS
         Pasajero cliente1 = new Pasajero(" Walter", "Cobacango", "Ponceano", "0979376396", 18);
         Pasajero cliente2 = new Pasajero("Kevin", "Mendoza", "Vicentina", "0984168469", 34);
         Pasajero cliente3 = new Pasajero("Richard", "Acero", "Zabala", "0999999956", 56);
@@ -43,13 +43,19 @@ public class Main {
 
         System.out.println("VAlores nulos y setteados");
         ruta1.mostrar_datos();
+        System.out.println();
         cliente6.mostrarInfoCliente();
+        System.out.println();
 
         System.out.println("Valores quemados");
         ruta2.mostrar_datos();
+        System.out.println();
         ruta3.mostrar_datos();
+        System.out.println();
         ruta4.mostrar_datos();
+        System.out.println();
         ruta5.mostrar_datos();
+        System.out.println();
         cliente1.mostrarInfoCliente();
     }
 }
