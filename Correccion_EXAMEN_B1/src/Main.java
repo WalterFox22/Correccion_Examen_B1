@@ -41,9 +41,6 @@ public class Main {
         System.out.println("Información del cliente 21 SETTEADO VALORES:");
         cliente21.mostrarInfoCliente(20);
 
-
-
-
         // Calcular y mostrar costo total para cada cliente
         double costoCliente1 = normal1.total();
         double costoCliente2 = vip1.total();
@@ -53,25 +50,25 @@ public class Main {
 
         // Mostrar información de cada cliente con su tipo de pasaje y costo total
         System.out.println();
-        System.out.println("INFORMACION DE CADA CLIENTE");
+        System.out.println("----- DETALLE DE CADA CLIENTE -----");
         System.out.println();
-        System.out.println("Información del cliente 1:");
+        System.out.println("----- Cliente 1 -----");
         cliente1.mostrarInfoCliente(costoCliente1);
         System.out.println();
 
-        System.out.println("Información del cliente 2:");
+        System.out.println("----- Cliente 2 -----");
         cliente2.mostrarInfoCliente(costoCliente2);
         System.out.println();
 
-        System.out.println("Información del cliente 3:");
+        System.out.println("----- Cliente 3 -----");
         cliente3.mostrarInfoCliente(costoCliente3);
         System.out.println();
 
-        System.out.println("Información del cliente 4:");
+        System.out.println("----- Cliente 4 -----");
         cliente4.mostrarInfoCliente(costoCliente4);
         System.out.println();
 
-        System.out.println("Información del cliente 5:");
+        System.out.println("----- Cliente 5 -----");
         cliente5.mostrarInfoCliente(costoCliente5);
         System.out.println();
     }

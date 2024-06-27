@@ -1,6 +1,6 @@
 package Rutas;
 
-public class Normal extends Ruta{
+public class Normal extends Ruta {
     String Asiento;
     int Espacio_maleta;
     int Espacio_extra;
@@ -41,13 +41,15 @@ public class Normal extends Ruta{
         Espacio_extra = espacio_extra;
     }
 
-    public  double Normal_adicional(){
-        double extra= precio*(30/100);
-        return (extra+precio);
+    public double Normal_adicional() {
+        double extra = precio * (30 / 100);
+        return (extra + precio);
     }
+
     public double precio_extra() {
         return (Espacio_extra * 1.50);
     }
+
     public double total() {
         double Total = Normal_adicional() + precio_extra();
         return (Total + precio);

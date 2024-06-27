@@ -44,6 +44,7 @@ public class VIP extends Ruta{
         double extra= precio*(30/100);
         return (extra+precio);
     }
+
     public double precio_extra() {
         return (Espacio_extra * 1.50);
     }
