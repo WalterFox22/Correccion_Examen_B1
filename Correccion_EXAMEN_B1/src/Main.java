@@ -11,8 +11,8 @@ public class Main {
         // AQUI ESTAN VALORES QUEMAODS CON CLINETES Y RUTAS
         Pasajero cliente1 = new Pasajero(" Walter", "Cobacango", "Ponceano", "0979376396", 18, "Normal");
         Pasajero cliente2 = new Pasajero("Kevin", "Mendoza", "Vicentina", "0984168469", 34, "VIP");
-        Pasajero cliente3 = new Pasajero("Richard", "Acero", "Zabala", "0999999956", 56, "VIP");
-        Pasajero cliente4 = new Pasajero("Martha", "Cobacango", "Cancelen", "09867543929", 30, "Normal");
+        Pasajero cliente3 = new Pasajero("Richard", "Padilla", "Zabala", "0999999956", 56, "VIP");
+        Pasajero cliente4 = new Pasajero("Martha", "Cobacango", "Carcelen", "09867543929", 30, "Normal");
         Pasajero cliente5 = new Pasajero("Azucena", "Acero", "Cayambe", "0995122669", 53,"VIP");
 
         Ruta ruta1 = new Ruta("Quito_Guayaquil", 20);

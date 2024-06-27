@@ -53,14 +53,13 @@ public class VIP extends Ruta{
         return (Total+precio);
     }
 
-
-
+    //Imprimir los datos de la ruta
     @Override
     public void mostrar_datos(){
-        System.out.println("Nombre: "+nombre);
+        System.out.println("Nombre de la ruta: "+nombre);
         System.out.println("Precio: "+ precio);
         System.out.println("Asiento: "+Asiento);
-        System.out.println("Espacio maleta: "+Espacio_maleta);
+        System.out.println("Espacio de maleta: "+Espacio_maleta);
         System.out.println("Espacio extra: "+Espacio_extra);
         System.out.println("Total: "+total());
     }
