@@ -22,7 +22,7 @@ public class Pasajero {
         this.tipoPasaje = tipoPasaje;
     }
 
-
+    // setter y getter
     public String getNombre() {
         return nombre;
     }
