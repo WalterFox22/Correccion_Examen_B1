@@ -89,6 +89,7 @@ public class Pasajero {
         System.out.println("Tipo de pasaje: " + tipoPasaje);
         System.out.println("Costo total: " + costoTotal);
 
+        // Mostrar información de la ruta si la tiene
         if (ruta != null){
             ruta.mostrar_datos();
         }
