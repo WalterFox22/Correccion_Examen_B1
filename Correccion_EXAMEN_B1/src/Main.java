@@ -41,6 +41,13 @@ public class Main {
         System.out.println("Información del cliente 21 SETTEADO VALORES:");
         cliente21.mostrarInfoCliente(20);
 
+        // Asociar rutas a los clientes
+        cliente1.setRuta(normal1);
+        cliente2.setRuta(vip1);
+        cliente3.setRuta(vip1);
+        cliente4.setRuta(normal1);
+        cliente5.setRuta(normal1);
+
         // Calcular y mostrar costo total para cada cliente
         double costoCliente1 = normal1.total();
         double costoCliente2 = vip1.total();

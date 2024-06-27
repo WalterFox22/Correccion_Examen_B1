@@ -7,6 +7,7 @@ public class Pasajero {
     String telefono;
     int edad;
     String tipoPasaje;
+    Ruta ruta;
 
     public Pasajero() {
 
@@ -70,6 +71,14 @@ public class Pasajero {
         this.tipoPasaje = tipoPasaje;
     }
 
+    public Ruta getRuta() {
+        return ruta;
+    }
+
+    public void setRuta(Ruta ruta) {
+        this.ruta = ruta;
+    }
+
     // Método para mostrar la información del cliente con el tipo de pasaje y el costo total
     public void mostrarInfoCliente(double costoTotal) {
         System.out.println("Nombre: " + nombre);
@@ -79,5 +88,9 @@ public class Pasajero {
         System.out.println("Edad: " + edad);
         System.out.println("Tipo de pasaje: " + tipoPasaje);
         System.out.println("Costo total: " + costoTotal);
+
+        if (ruta != null){
+            ruta.mostrar_datos();
+        }
     }
 }
