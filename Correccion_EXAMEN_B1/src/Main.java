@@ -6,14 +6,14 @@ import Rutas.Pasajero;
 public class Main {
     public static void main(String[] args) {
 
-        // Integrantes: WALTER COBACANGO, RICHARD PADILLA, KEVIN MENDOZA
+        // INTEGRANTES: Walter Cobacango, Richard Padilla, Kevin Mendoza
 
         // AQUI ESTAN VALORES QUEMAODS CON CLINETES Y RUTAS
-        Pasajero cliente1 = new Pasajero(" Walter", "Cobacango", "Ponceano", "0979376396", 18, "Normal");
-        Pasajero cliente2 = new Pasajero("Kevin", "Mendoza", "Vicentina", "0984168469", 34, "VIP");
-        Pasajero cliente3 = new Pasajero("Richard", "Padilla", "Zabala", "0999999956", 56, "VIP");
-        Pasajero cliente4 = new Pasajero("Martha", "Cobacango", "Carcelen", "09867543929", 30, "Normal");
-        Pasajero cliente5 = new Pasajero("Azucena", "Acero", "Cayambe", "0995122669", 53,"VIP");
+        Pasajero cliente1 = new Pasajero(" Walter", "Cobacango", "Ponceano", "0979376396", 20, "Normal");
+        Pasajero cliente2 = new Pasajero("Kevin", "Mendoza", "Vicentina", "0984168469", 22, "VIP");
+        Pasajero cliente3 = new Pasajero("Richard", "Padilla", "Zabala", "0999999956", 20, "VIP");
+        Pasajero cliente4 = new Pasajero("Martha", "Cobacango", "Carcelen", "09867543929", 27, "Normal");
+        Pasajero cliente5 = new Pasajero("Azucena", "Acero", "Cayambe", "0995122669", 25,"VIP");
 
         Ruta ruta1 = new Ruta("Quito_Guayaquil", 20);
         Ruta ruta2 = new Ruta("Quito-Tulcán", 17.50);
@@ -36,9 +36,9 @@ public class Main {
         cliente21.setApellido("Cobacango");
         cliente21.setDireccion("Ponceano");
         cliente21.setTelefono("0979376396");
-        cliente21.setEdad(18);
-        cliente21.setTipoPasaje("Normal");
-        System.out.println("Información del cliente 21 SETTEADO VALORES:");
+        cliente21.setEdad(20);
+        cliente21.setTipoPasaje("VIP");
+        System.out.println(" ----- CLIENTE 21 CON VALORES SETTEADOS ----- ");
         cliente21.mostrarInfoCliente(20);
 
         // Asociar rutas a los clientes
