@@ -58,7 +58,7 @@ public class Normal extends Ruta {
     //Metodo para imprimir la informacion detalla del viaje
     @Override
     public void mostrar_datos(){
-        System.out.println("Nombre de la Ruta: "+nombre);
+        System.out.println("Nombre de la Ruta Normal: "+nombre);
         System.out.println("Precio: "+ precio);
         System.out.println("Asiento: "+Asiento);
         System.out.println("Espacio de maleta: "+Espacio_maleta);
